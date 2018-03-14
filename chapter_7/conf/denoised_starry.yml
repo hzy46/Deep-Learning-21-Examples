@@ -1,0 +1,26 @@
+## Basic configuration
+style_image: img/denoised_starry.jpg # targeted style image
+naming: "denoised_starry" # the name of this model. Determine the path to save checkpoint and events file.
+model_path: models  # root path to save checkpoint and events file. The final path would be <model_path>/<naming>
+
+## Weight of the loss
+content_weight: 1.0  # weight for content features loss
+style_weight: 250  # weight for style features loss
+tv_weight: 0.0  # weight for total variation loss
+
+## The size, the iter number to run
+image_size: 256
+batch_size: 4
+epoch: 2
+
+## Loss Network
+loss_model: "vgg_16"
+content_layers:  # use these layers for content loss
+  - "vgg_16/conv3/conv3_3"
+style_layers:  # use these layers for style loss
+  - "vgg_16/conv1/conv1_2"
+  - "vgg_16/conv2/conv2_2"
+  - "vgg_16/conv3/conv3_3"
+  - "vgg_16/conv4/conv4_3"
+checkpoint_exclude_scopes: "vgg_16/fc"  # we only use the convolution layers, so ignore fc layers.
+loss_model_file: "pretrained/vgg_16.ckpt"  # the path to the checkpoint
