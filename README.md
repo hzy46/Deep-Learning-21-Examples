@@ -3,8 +3,8 @@
 本工程是《21个项目玩转深度学习———基于TensorFlow的实践详解》的配套代码，代码推荐的运行环境为：Ubuntu 14.04，Python 2.7、TensorFlow >= 1.4.0。请尽量使用类UNIX系统和Python 2运行本书的代码。
 
 欢迎有兴趣的同学猛戳下面的链接购买：
-- [https://item.jd.com/12327358.html](https://item.jd.com/12327358.html)
-- [https://detail.tmall.com/item.htm?id=566399074299](https://detail.tmall.com/item.htm?id=566399074299)
+- 京东：[https://item.jd.com/12327358.html](https://item.jd.com/12327358.html)
+- 天猫：[https://detail.tmall.com/item.htm?id=566399074299](https://detail.tmall.com/item.htm?id=566399074299)
 
 写作这本书的初衷是希望提供一个**深度学习实践案例的合集**，让每个人都可以在“动手实验”的过程中，比较轻松地掌握深度学习和TensorFlow的使用技巧，并且能完整地做出一些有意思的项目。**希望大家能在实践的过程中找到乐趣，如果有任何问题，欢迎通过[issues](https://github.com/hzy46/Deep-Learning-21-Examples/issues)提出纠错或改进建议。**
 
