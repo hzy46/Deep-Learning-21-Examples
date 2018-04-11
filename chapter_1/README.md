@@ -28,7 +28,7 @@ python softmax_regression.py
 
 **1.2.2 两层卷积网络分类**
 ```
-python softmax_regression.py
+python convolutional.py
 ```
 
 #### 可能出现的错误
