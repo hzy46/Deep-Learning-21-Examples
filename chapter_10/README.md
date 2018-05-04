@@ -31,9 +31,11 @@ python tools/process.py --operation blur \
 
 合并图像：
 ```
-python tools/process.py --operation blur \
+python tools/process.py \
   --input_dir ~/datasets/super-resolution/mscoco_resized/ \
-  --output_dir ~/datasets/super-resolution/mscoco_blur/
+  --b_dir ~/datasets/super-resolution/mscoco_blur/ \
+  --operation combine \
+  --output_dir ~/datasets/super-resolution/mscoco_combined/
 ```
 
 划分训练集和测试集：
