@@ -1,6 +1,6 @@
 ### 11. CycleGAN与非配对图像转换
 
-本节的程序来源于项目https://github.com/vanhuyz/CycleGAN-TensorFlow，并做了细微修改。
+本节的程序来源于项目https://github.com/vanhuyz/CycleGAN-TensorFlow ，并做了细微修改。
 
 **11.2.1 下载数据集并训练**
 
